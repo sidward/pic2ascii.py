@@ -1,6 +1,6 @@
 # pic2ascii.py
 
-A simple python hack to print ascii images from image files. An example result can be seen [here](https://github.com/sidward/pic2ascii.py/blob/master/result.txt).
+A simple python hack to print ascii images from image files. An example result can be seen [here](https://raw.githubusercontent.com/sidward/pic2ascii.py/master/result.txt).
 
 ## Getting started
 
