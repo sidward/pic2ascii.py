@@ -1,0 +1,20 @@
+<center><h1 id="pic2ascii.py">pic2ascii.py</h1></center>
+<h2>Description</h2>
+<p>A simple python hack to print ascii images from image files. An example result can be seen <a href="https://raw.githubusercontent.com/sidward/pic2ascii.py/master/result.txt">here</a>.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>Clone the repository into the desired directory.</p>
+<pre><code>cd &lt;dir&gt;
+git clone https://github.com/sidward/pic2ascii.py
+cd pic2ascii.py</code></pre>
+<p>Optionally, add an alias so that you can call this function from anywhere.</p>
+<pre><code>echo &#39;alias pic2ascii.py=&quot;exec &lt;dir&gt;/pic2ascii.py&quot;&#39; &gt;&gt; ~/.bash_aliases</code></pre>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>This requires <code>numpy</code> and <code>scipy</code>.</p>
+<h2 id="usage">Usage</h2>
+<p>Assuming the bash alias has been added,</p>
+<pre><code>pic2ascii.py &lt;path to picture&gt;</code></pre>
+<p>Alternatively,</p>
+<pre><code>pic2ascii.py &lt;path to picture&gt; &gt; out.txt</code></pre>
+<p>See <code>example.sh</code> for a sample call.</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License - see the <a href="License.md">LICENSE.md</a> file for details</p>
